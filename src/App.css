@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Dongle:wght@300&family=Kaushan+Script&family=Lobster&family=Montserrat:ital,wght@1,100&family=Open+Sans:wght@500&family=Quicksand:wght@300&family=Roboto:wght@100&family=Ubuntu&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Ubuntu', sans-serif; */
+}
+.main-div{
+  width: 100vw;
+  height: 100vh;
+ /* position: relative; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* background-color: rgba(48, 113, 170, 0.776); */
+}
+.inner-div{
+  width: 40vw;
+  height: 90vh;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  /* margin: auto; */
+  /* position: absolute;
+  left: 25%;
+  top: 25%; */
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+  /* align-items: center; */
+}
+
+.form-div{
+  display: flex;
+  flex-direction: column;
+}
+
+img{
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 25vw;
+  align-self: center;
+}
+
+.heading h2{
+  font-weight: 600;
+}
+.heading p{
+  margin-top: 10px;
+  color: gray;
+}
+
+.form-div p{
+  color: gray;
+}
+
+label{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: rgb(75, 74, 74);
+}
+
+input{
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  height: 40px;
+  padding: 15px 15px;
+  /* color: gray; */
+  /* box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15) ; */
+}
+select{
+  border: 0.5px solid rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  height: 40px;
+  padding: 0px 15px;
+}
+
+.label-div{
+  display: flex;
+  flex-direction: column;
+}
+
+.com-size-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 50px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.com-size-div .com-size-inner-div{
+  background-color: rgba(0, 0, 0, 0.11) ;
+  width: 50px;
+  height: 25px;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 0px solid rgba(0, 0, 0, 0.10);
+  border-radius: 3px;
+  color: black;
+}
+.active-com-size{
+  background-color: rgb(0, 2, 95) ;
+  width: 50px;
+  height: 25px;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 0px solid rgba(0, 0, 0, 0.10);
+  border-radius: 3px;
+  color: white;
+}
+button{
+  margin-top: 40px;
+  height: 40px;
+  border: 2px solid rgb(0, 2, 95);
+  border-radius: 10px;
+  background-color: rgb(0, 2, 95);
+  color: aliceblue;
+  
+}
